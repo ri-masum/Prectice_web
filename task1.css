@@ -1,0 +1,25 @@
+.one{
+    margin: 20px;
+    border: 5px solid tomato;
+    box-shadow: 10px 10px 20px rgb(230, 135, 135);
+}
+h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inline{
+    border: 4px blue;
+}
+.header{
+    font-size: 59px;
+    border: 1px solid;
+    margin-top: 50px;
+    padding: 20px;
+    background-image: url("img.jpeg");
+    background-repeat: none;
+    background-position: right top;
+    background-color: purple;
+
+
+
+}
