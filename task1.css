@@ -48,3 +48,10 @@ width: 200px;
 .box2{
     background-color: yellow;
 }
+nav > ul > li{
+display: inline;
+margin-right: 10px;
+}
+footer{
+    
+}
