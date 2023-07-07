@@ -20,6 +20,16 @@
    border: none;
    border-radius: 5px;
    cursor: pointer;}
+   td{
+    border: 2px solid black;
+    padding: 5px 10px;
+   }
+   table{
+    border-collapse: collapse;
+   }
+   th{
+    border: 2px solid black;
+   }
     </style>
 </head>
 <body>
@@ -79,7 +89,59 @@
             <fieldset>
                 <legend>Special Message for Him</legend>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
             </fieldset>
+            <h1>HTML Table</h1>
+            <table>
+                <caption>Employe salary sheet</caption>
+                <thead>
+                   <tr> <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>   </tr>
+              </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td><td>Bill Gates</td>
+                            <td>Microsoft</td>
+                            <td>$2000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>Masum</td>
+                            <td>Apple</td>
+                            <td>$4000</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sawrab</td>
+                            <td>google</td>
+                            <td>$1000</td>
+                        </tr>
+
+                    </tbody>
+                
+                <tfoot>
+                    <tr><td colspan="4">Total Employe:4</td></tr>
+
+                </tfoot>
+            </table>
+            <ul>
+
+                <h3>Table attributes:</h3>
+                <li>Table: table</li>
+            <li>table head:thead</li>
+            <li>table body:tbody</li>
+            <li>table footer:tfooter</li>
+            <li>table row:tr</li>
+            <li>table cell: td</li>
+            <li>table header cell: th</li>
+            <li>caption: caption</li>
+            </ul>
+
+
+
         <input type="reset" name="" class="btn" value="Reset">
         <input type="submit" name="" class="btn" value="Submit">
 
