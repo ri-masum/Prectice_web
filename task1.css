@@ -84,6 +84,16 @@ nav>ul>li {
     color:black
 
  }
+ nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding-right: 10px;
+
+ }
+ nav li:hover .dropdown{
+    display: block;
+ }
  nav li:hover{
     background-color: blanchedalmond;
  }
