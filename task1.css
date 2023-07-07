@@ -62,3 +62,28 @@ nav>ul>li {
     display: inline;
     margin-right: 10px;
 }
+
+.menus {
+    display: flex;
+    
+ }
+ 
+ .list {
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    list-style-type: none;padding: 10px;
+ }
+ 
+ .list:hover {
+    color: rebeccapurple;
+ }
+ nav li a{
+    text-decoration: none;
+    color:black
+
+ }
+ nav li:hover{
+    background-color: blanchedalmond;
+ }

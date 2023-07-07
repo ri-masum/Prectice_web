@@ -29,10 +29,16 @@
    padding-right: 7px;
    font-size: 18px;
    cursor: pointer;
+   
+}
+nav li a{
+   text-decoration: none;
+   color:black
+
 }
 
 .list:hover {
-   color: rebeccapurple;
+   color: rgb(122, 33, 210);
 }
 
 .banner-container {
