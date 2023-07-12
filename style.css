@@ -45,6 +45,7 @@ nav li a{
    display: flex;
    justify-content: space-around;
    align-items: center;
+   flex-wrap: wrap-reverse;
    height: 100vh;
    background-image: linear-gradient(45deg, #cec3c3, #261515);
 }
