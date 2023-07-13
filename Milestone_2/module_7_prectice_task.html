@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            border: 1px solid tomato;
+        }
+
+        .item img {
+            width: 100%;
+
+        }
+
+        @media screen and (max-width:576px) {
+
+            .container {
+                border: 1px solid tomato;
+
+                flex-direction: column-reverse;
+
+            }
+
+            .item {
+                width: 100%;
+
+            }
+
+        }
+
+
+
+        .container1 {
+            margin-top: 100px;
+            border: 2px solid skyblue;
+            height: 40vh;
+            display: grid;
+
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+                "one one two two"
+                "one one three four"
+            ;
+            grid-gap: 5px;
+            text-align: center;
+
+
+        }
+
+        .box {
+            font-size: 2em;
+            border: 1px solid black;
+
+        }
+
+        .box1 {
+            background: #ba3333;
+            grid-area: one;
+
+        }
+
+        .box2 {
+            background: #edc7c7;
+            grid-area: two;
+
+
+        }
+
+        .box3 {
+            background: #c26868;
+            grid-area: three;
+
+
+        }
+
+        .box4 {
+            background: #593636;
+            grid-area: four;
+
+
+        }
+
+        .imgcon {
+            width: 100%;
+            height: 50vh;
+
+            border: 2px solid red;
+            margin-top: 4em;
+
+        }
+
+        .imgs img {
+
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        .img-contianer {
+            display: flex;
+            gap: 2em;
+
+        }
+
+        .img-contianer img {
+            width: 100%;
+        }
+        
+
+        @media screen and (max-width:576px) {
+            .container1 {
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas:
+                    "one"
+                    "two"
+                    "three"
+                    "four";
+
+
+            }
+
+            .box {
+                width: 100%;
+            }
+            .img-contianer{
+                display: grid;
+                padding: 10px;
+                border: 2px solid tomato;
+                border-radius: 2em;
+                
+
+            }
+
+        }
+
+        /* @media screen and (max-width:576px) {
+            .imgs img {
+
+                object-fit: fill;
+
+        }
+        .imgcon {
+
+            border: 2px solid red;
+
+        }
+            
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"><img src="../images/person.png" alt=""></div>
+        <div class="item"><img src="../images/watch.png" alt=""></div>
+    </div>
+
+    <div class="container1">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
+    <div class="imgcon">
+        <div class="imgs">
+            <img src="../img/background.jpg" alt="">
+        </div>
+
+    </div>
+
+    <main>
+        <div class="img-contianer">
+            <div class="photo">
+                <img src="../images/banner/banner1.png" alt="">
+
+            </div>
+            <div class="text">
+                <h2>Post title will be here</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur autem quo fugiat quia
+                    hic aut rerum corporis ad cumque impedit sed, ipsum culpa explicabo vitae adipisci et quidem
+                    suscipit voluptatibus!
+                </p>
+                <button>read more</button>
+            </div>
+            </div>
+        <div class="img-contianer">
+            <div class="photo">
+                <img src="../images/banner/banner1.png" alt="">
+
+            </div>
+            <div class="text">
+                <h2>Post title will be here</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur autem quo fugiat quia
+                    hic aut rerum corporis ad cumque impedit sed, ipsum culpa explicabo vitae adipisci et quidem
+                    suscipit voluptatibus!
+                </p>
+                <button>read more</button>
+            </div>
+            </div>
+        <div class="img-contianer">
+            <div class="photo">
+                <img src="../images/banner/banner1.png" alt="">
+
+            </div>
+            <div class="text">
+                <h2>Post title will be here</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur autem quo fugiat quia
+                    hic aut rerum corporis ad cumque impedit sed, ipsum culpa explicabo vitae adipisci et quidem
+                    suscipit voluptatibus!
+                </p>
+                <button>read more</button>
+            </div>
+            </div>
+
+    </main>
+
+</body>
+
+</html>
