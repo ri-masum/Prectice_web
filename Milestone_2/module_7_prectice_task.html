@@ -110,7 +110,19 @@
         .img-contianer img {
             width: 100%;
         }
-        
+
+        .page-container {
+            
+            border: 1px solid tomato;
+            
+        }
+        .vlog-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 1px solid tomato;
+            
+        }
+
 
         @media screen and (max-width:576px) {
             .container1 {
@@ -128,16 +140,25 @@
             .box {
                 width: 100%;
             }
-            .img-contianer{
+
+            .img-contianer {
                 display: grid;
                 padding: 10px;
                 border: 2px solid tomato;
                 border-radius: 2em;
-                
+
 
             }
+            .vlog-con{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr ;
+            flex-direction: column-reverse;
+            
+        }
 
         }
+
 
         /* @media screen and (max-width:576px) {
             .imgs img {
@@ -188,7 +209,7 @@
                 </p>
                 <button>read more</button>
             </div>
-            </div>
+        </div>
         <div class="img-contianer">
             <div class="photo">
                 <img src="../images/banner/banner1.png" alt="">
@@ -202,7 +223,7 @@
                 </p>
                 <button>read more</button>
             </div>
-            </div>
+        </div>
         <div class="img-contianer">
             <div class="photo">
                 <img src="../images/banner/banner1.png" alt="">
@@ -216,8 +237,37 @@
                 </p>
                 <button>read more</button>
             </div>
-            </div>
+        </div>
 
+
+        <div class="vlog-con">
+            <section class="page-container">
+                <div class="imgs">
+                    <img src="../images/person.png" alt="">
+    
+                </div>
+    
+                <div>
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quia, numquam sequi voluptatem odio ut,
+                        explicabo rem fugiat dolor dolorem, aut tempore error. Neque natus non similique suscipit incidunt
+                        nobis?</p>
+    
+                </div>
+            </section>
+            <section class="page-container">
+                <div>
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, suscipit culpa sit, nemo doloribus
+                        tempora eius tenetur iste ea, sint recusandae. Quia autem laborum unde nobis qui et? Est, mollitia!</p>
+                </div>
+                <div class="imgs">
+                    <img src="../images/person.png" alt="">
+                </div>
+               
+            </section>
+        </div>
+        
     </main>
 
 </body>
