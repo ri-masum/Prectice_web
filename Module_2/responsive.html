@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        .food{
+            border: 1px solid tomato;
+            border-radius: 2em;
+            padding: 3em;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap: 3em;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* different screen size look or we can say responsive
+          */
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+           
+            
+        }
+        @media screen and (min-width:579px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+            
+        }
+        @media screen and (min-width:993px) and (max-width:1200px) {
+            .container{
+                grid-template-columns: repeat(3,1fr);
+            }
+            
+        }
+        @media screen and (min-width:1201px) and (max-width:1400px) {
+            .container{
+                grid-template-columns: repeat(4,1fr);
+            }
+            
+        }
+     
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 1</h3>
+            <p>Phone:000-000-000</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente tenetur ducimus quasi unde quibusdam excepturi voluptate aut doloribus. Pariatur, sint.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 2</h3>
+            <p>Phone:000-000-000</p>
+            <p>Debitis, beatae ex fugit suscipit esse asperiores perferendis nam facere neque rem, et corrupti, veniam laboriosam! Cumque tempora ab voluptates.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 3</h3>
+            <p>Phone:000-000-000</p>
+            <p>Laudantium possimus incidunt obcaecati rem excepturi perspiciatis id placeat tenetur exercitationem asperiores ut optio quae libero error dolor, illo fugiat?</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 4</h3>
+            <p>Phone:000-000-000</p>
+            <p>Architecto, accusamus ipsum ab impedit saepe consequatur molestiae nostrum commodi consectetur iusto esse eveniet id nobis! Delectus dolorum inventore tenetur.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 5</h3>
+            <p>Phone:000-000-000</p>
+            <p>Veniam consectetur maiores eaque porro possimus odio aspernatur soluta ducimus quibusdam vitae, tempore illum ipsa. Reiciendis quam soluta doloremque expedita!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 6</h3>
+            <p>Phone:000-000-000</p>
+            <p>Nihil doloribus nobis eum nesciunt eos hic excepturi natus non inventore dolores, tempora quidem nam eius blanditiis vitae et. Exercitationem.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 7</h3>
+            <p>Phone:000-000-000</p>
+            <p>Mollitia quis nesciunt explicabo quidem eius veritatis in eligendi dolore quam amet aut quas veniam voluptatibus, enim quae laboriosam fugiat.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 8</h3>
+            <p>Phone:000-000-000</p>
+            <p>Blanditiis porro eum voluptatibus adipisci distinctio incidunt aliquam velit aspernatur. Saepe atque delectus numquam vitae quo, similique cumque nemo placeat.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 9</h3>
+            <p>Phone:000-000-000</p>
+            <p>Sapiente dolor at dolorum cupiditate nisi qui excepturi maxime consequatur voluptates deserunt nam, fuga eos optio voluptatum minus! Pariatur, harum?</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 10</h3>
+            <p>Phone:000-000-000</p>
+            <p>Pariatur at quod amet laborum tempore, ipsam sint, quae iure nostrum repellat, delectus corporis quia rerum nesciunt maxime id. Illum.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 11</h3>
+            <p>Phone:000-000-000</p>
+            <p>Labore eaque provident quam eos omnis, quia soluta iste deleniti eveniet cum! Nisi necessitatibus sunt, porro dolorum dolorem quasi blanditiis.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 12</h3>
+            <p>Phone:000-000-000</p>
+            <p>Necessitatibus non exercitationem sunt, ut doloremque quaerat impedit laudantium corrupti vitae officia distinctio, natus dignissimos repellendus? Architecto ab earum quam!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 13</h3>
+            <p>Phone:000-000-000</p>
+            <p>Quia tempore accusantium enim! Magni quasi veritatis quod nihil ab est impedit. Fuga saepe magni molestias nemo aliquid! Nesciunt, suscipit!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 14</h3>
+            <p>Phone:000-000-000</p>
+            <p>Quod assumenda magnam reiciendis deleniti ea, officia illo, nobis delectus reprehenderit obcaecati tempora at quidem dolor. Laudantium natus libero est!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 15</h3>
+            <p>Phone:000-000-000</p>
+            <p>Velit eligendi saepe voluptate rerum magni illo veniam. Nihil impedit nesciunt autem corporis quae doloribus omnis quia sit quisquam distinctio.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 16</h3>
+            <p>Phone:000-000-000</p>
+            <p>Quaerat ratione fugiat rem eveniet sit aliquam illo nesciunt hic quidem, iusto totam tempora doloribus optio maiores eligendi error dolores!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 17</h3>
+            <p>Phone:000-000-000</p>
+            <p>Vero neque minima explicabo quae saepe eaque quod fugit optio iste nisi, fuga harum earum inventore. Vero non neque natus!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 18</h3>
+            <p>Phone:000-000-000</p>
+            <p>Voluptate aliquid, veritatis magni consectetur laboriosam dolorem? Voluptatibus dolorum repudiandae reiciendis quis iste tempore esse, veritatis tenetur assumenda rerum cupiditate?</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 19</h3>
+            <p>Phone:000-000-000</p>
+            <p>Tenetur pariatur delectus quas temporibus quod nobis accusamus, voluptates culpa ullam aut minus ratione magnam dicta beatae provident voluptatibus cum!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 20</h3>
+            <p>Phone:000-000-000</p>
+            <p>Itaque dicta deserunt quaerat. Eaque libero provident, illo voluptatem, iure, blanditiis eius repellat vel in autem aspernatur magni beatae? Esse.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 21</h3>
+            <p>Phone:000-000-000</p>
+            <p>Dolor nemo recusandae nobis assumenda, consequatur minus odio quia officiis non aliquam, possimus optio error corporis iure adipisci soluta ea.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 22</h3>
+            <p>Phone:000-000-000</p>
+            <p>Delectus neque odit, facilis assumenda perferendis, consectetur id officiis nobis nisi molestiae in a fugit tenetur consequuntur fuga nulla magnam!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 23</h3>
+            <p>Phone:000-000-000</p>
+            <p>Vero maiores quod modi similique porro voluptatem, earum fugiat debitis sit eligendi quia quibusdam sint, esse, aut deleniti quis vitae!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 24</h3>
+            <p>Phone:000-000-000</p>
+            <p>Ratione veritatis blanditiis recusandae, totam suscipit saepe dolore reprehenderit provident corrupti quis sit nulla nesciunt nihil fuga vero vitae delectus!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 25</h3>
+            <p>Phone:000-000-000</p>
+            <p>Doloribus commodi enim, ipsum facilis iste maxime debitis omnis aspernatur sapiente animi nulla eligendi voluptatibus accusantium? Provident harum commodi laboriosam!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 26</h3>
+            <p>Phone:000-000-000</p>
+            <p>Repellat, dolorum. Totam tenetur perferendis aut voluptate culpa doloribus distinctio numquam cum! Ipsam labore laboriosam perspiciatis quisquam? Dolores, ad reiciendis!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 27</h3>
+            <p>Phone:000-000-000</p>
+            <p>Repellat adipisci doloremque iusto. Dicta maiores, quis, repellat commodi fuga exercitationem eveniet quas veritatis, aliquid voluptatibus eius molestiae? Sunt, harum.</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 28</h3>
+            <p>Phone:000-000-000</p>
+            <p>Minus, ducimus facere laborum ab sunt nesciunt, odio aut voluptatibus architecto, impedit accusamus? Id exercitationem quis in nesciunt fugit aliquid?</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 29</h3>
+            <p>Phone:000-000-000</p>
+            <p>Magnam modi perferendis enim tenetur, eos consequatur vel doloribus et doloremque voluptate nostrum fugit? Doloremque veniam quidem ea temporibus porro!</p>
+        </div>
+        <div class="food">
+            <img src="../images/person.png" alt="">
+            <h3>Person Details - 30</h3>
+            <p>Phone:000-000-000</p>
+            <p>Illo, est. Enim, ipsum pariatur deleniti labore hic necessitatibus ea, laudantium eligendi harum illum cupiditate quod dolor! Deleniti, distinctio natus.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
