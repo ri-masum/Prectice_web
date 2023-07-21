@@ -27,11 +27,38 @@
             border: 4px dotted tomato;
             border-radius: 10px;
         }
+
+        .pin {
+            position: relative;
+            top: 40%;
+            left: 50%;
+            border-radius: 50% 50% 50% 0;
+            border: 2px solid #ab3333;
+            width: 40px;
+            height: 40px;
+            transform: rotate(-45deg);
+        }
+
+        .pin::after {
+            position: absolute;
+            content: '';
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            /* top: 50%;
+            left: 50%;
+            margin-left: -10px;
+            margin-top: -10px; */
+            background-color: #2e208b;
+
+        }
+        .pin:hover{
+        }
     </style>
 </head>
 
 <body><!--//this is body we will do our work here-->
-    
+
     <header>
         <nav>
             <div class="menu-container">
@@ -101,6 +128,12 @@
 
     </span>
 
+    <main style="  background: linear-gradient(45deg, #007991 0%, #78ffd6 100%);
+
+                 min-height: 300px;   ">
+        <div class="pin"></div>
+
+    </main>
 
 
 </body>
