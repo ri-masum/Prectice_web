@@ -58,3 +58,6 @@ var remain=givenNumber%5;
 console.log('remain = '+remain);
 console.log('________________________________________________');
 console.log(17%5);
+
+console.log('________________________________________________');
+
