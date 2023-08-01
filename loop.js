@@ -192,7 +192,9 @@ for(var i=0;i<arr.length;i++){
 }
  */
 
-var moneyHave=55000;
+/**
+//  problem solving 
+ var moneyHave=55000;
 if(moneyHave>=80000){
 console.log('you can bouy iphone');}
 else if(moneyHave>=60000){
@@ -201,12 +203,26 @@ else if(moneyHave>=60000){
 
 }
 
-
-
-
 else if(moneyHave>=20000){
   console.log('you have to use mobile ');
 }
 else{
   console.log('do nothing and sleep');
+} 
+ */
+
+//  if the array is even then print hey barbe or  else no barbe
+/**
+ var arr = ["masum", "sawrab", "tusher", "rayat", "srabon"];
+var i = 0;
+while (i <= arr.length) {
+  console.log(arr[i] + ' ' + 'hey man'); //output a ekta undfine astace
+  i++;
 }
+ */
+
+// const length =1455;// const numbers=[];
+// for (var i=0;i<length;i++){
+//   numbers.push(i+1);
+// }
+// console.log(numbers);
